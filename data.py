@@ -54,6 +54,31 @@ __frequency_swedish = {
     'y': 0.70, 'z': 0.07, 'å': 1.34, 'ä': 1.80, 'ö': 1.31
 }
 
+__frequency_romanian = {
+    'a': 14.63, 'b': 1.42, 'c': 2.75, 'd': 3.32, 'e': 11.98, 'f': 0.93,
+    'g': 0.84, 'h': 1.49, 'i': 9.74, 'j': 0.03, 'k': 0.00, 'l': 5.90,
+    'm': 2.95, 'n': 6.48, 'o': 4.57, 'p': 1.85, 'q': 0.01, 'r': 6.39,
+    's': 6.62, 't': 7.40, 'u': 4.39, 'v': 1.47, 'w': 0.01, 'x': 0.02,
+    'y': 0.01, 'z': 1.35, 'ă': 1.47, 'â': 1.44, 'î': 1.14, 'ș': 1.23, 'ț': 1.10
+}
+
+__frequency_dutch = {
+    'a': 7.49, 'b': 1.58, 'c': 1.24, 'd': 5.93, 'e': 18.91, 'f': 0.81,
+    'g': 3.40, 'h': 2.38, 'i': 6.50, 'j': 1.46, 'k': 2.25, 'l': 3.57,
+    'm': 2.21, 'n': 10.32, 'o': 6.06, 'p': 1.57, 'q': 0.00, 'r': 6.41,
+    's': 3.73, 't': 6.79, 'u': 1.99, 'v': 2.85, 'w': 1.52, 'x': 0.04,
+    'y': 0.03, 'z': 1.39
+}
+
+__frequency_hungarian = {
+    'a': 6.17, 'b': 1.44, 'c': 0.85, 'd': 1.63, 'e': 14.78, 'f': 0.71,
+    'g': 1.39, 'h': 1.18, 'i': 9.84, 'j': 0.30, 'k': 3.35, 'l': 6.07,
+    'm': 2.24, 'n': 6.43, 'o': 5.73, 'p': 1.45, 'q': 0.00, 'r': 4.61,
+    's': 4.39, 't': 4.62, 'u': 3.56, 'v': 0.60, 'w': 0.00, 'x': 0.00,
+    'y': 1.21, 'z': 2.96, 'á': 1.56, 'é': 2.34, 'í': 0.34, 'ó': 1.14,
+    'ö': 1.38, 'ú': 0.16, 'ü': 1.18, 'ű': 0.34
+}
+
 language_names = {
     str(__frequency_italian): "Italian",
     str(__frequency_portuguese): "Portuguese",
@@ -61,7 +86,10 @@ language_names = {
     str(__frequency_french): "French",
     str(__frequency_english): "English",
     str(__frequency_german): "German",
-    str(__frequency_swedish): "Swedish"
+    str(__frequency_swedish): "Swedish",
+    str(__frequency_romanian): "Romanian",
+    str(__frequency_dutch): "Dutch",
+    str(__frequency_hungarian): "Hungarian"
 }
 
 languages = [
@@ -71,5 +99,8 @@ languages = [
     __frequency_french,
     __frequency_english,
     __frequency_german,
-    __frequency_swedish
+    __frequency_swedish,
+    __frequency_romanian,
+    __frequency_dutch,
+    __frequency_hungarian
 ]

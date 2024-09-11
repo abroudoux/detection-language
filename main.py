@@ -1,6 +1,6 @@
-from languages import guess_languages
+from src import guess_languages
+from tests import *
 
 if __name__ == '__main__':
-    txt = "Svenskar älskar sitt kaffe. Det kommer vara lätt att hitta ett fik att köpa en färsk kopp kaffe för det finns kaféer överallt i de stora städerna i Sverige."
-    lan = guess_languages(txt)
+    lan = guess_languages(txt_swedish)
     print("The language of the text is :", lan)

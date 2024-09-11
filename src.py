@@ -2,7 +2,7 @@ import re
 
 from collections import Counter
 
-from frequencies import languages, language_names
+from data import languages, language_names
 from utils import find_lowest_value
 
 def guess_languages(s):
