@@ -70,15 +70,6 @@ __frequency_dutch = {
     'y': 0.03, 'z': 1.39
 }
 
-__frequency_hungarian = {
-    'a': 6.17, 'b': 1.44, 'c': 0.85, 'd': 1.63, 'e': 14.78, 'f': 0.71,
-    'g': 1.39, 'h': 1.18, 'i': 9.84, 'j': 0.30, 'k': 3.35, 'l': 6.07,
-    'm': 2.24, 'n': 6.43, 'o': 5.73, 'p': 1.45, 'q': 0.00, 'r': 4.61,
-    's': 4.39, 't': 4.62, 'u': 3.56, 'v': 0.60, 'w': 0.00, 'x': 0.00,
-    'y': 1.21, 'z': 2.96, 'á': 1.56, 'é': 2.34, 'í': 0.34, 'ó': 1.14,
-    'ö': 1.38, 'ú': 0.16, 'ü': 1.18, 'ű': 0.34
-}
-
 language_names = {
     str(__frequency_italian): "Italian",
     str(__frequency_portuguese): "Portuguese",
@@ -89,7 +80,6 @@ language_names = {
     str(__frequency_swedish): "Swedish",
     str(__frequency_romanian): "Romanian",
     str(__frequency_dutch): "Dutch",
-    str(__frequency_hungarian): "Hungarian"
 }
 
 languages = [
@@ -102,5 +92,4 @@ languages = [
     __frequency_swedish,
     __frequency_romanian,
     __frequency_dutch,
-    __frequency_hungarian
 ]

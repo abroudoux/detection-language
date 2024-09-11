@@ -22,7 +22,7 @@ def __calculate_frequencies(s):
     frequencies = {}
 
     s_lower = s.lower()
-    s_regex = re.sub('[^a-zA-Zéàèçćčâôœöôòóõ7ō]','', s_lower)
+    s_regex = re.sub('[^a-zA-Zàáâäãåāçćčèéêëēìíîïīñòóôõöøōùúûüūýÿœšžß]','', s_lower)
     letter_count = dict(Counter(s_regex))
 
     for occ in letter_count:

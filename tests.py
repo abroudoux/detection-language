@@ -6,3 +6,5 @@ txt_spanish = "El español es una lengua romance del grupo ibérico. Es uno de l
 txt_italian = "L'italiano è una lingua romanza. È la lingua ufficiale della Repubblica Italiana."
 txt_portuguese = "O português é uma língua românica. É a língua oficial de Portugal e do Brasil."
 txt_dutch = "Nederlands is een West-Germaanse taal die wereldwijd wordt gesproken. Het is de meest gesproken moedertaal in de Europese Unie."
+txt_romansh = "Il rumantsch è una lingua retoromanza. È una delle quattro lingue ufficiali della Svizzera."
+txt_dutch = "Nederlands is een West-Germaanse taal die wereldwijd wordt gesproken. Het is de meest gesproken moedertaal in de Europese Unie."
