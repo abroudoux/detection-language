@@ -5,8 +5,8 @@ from collections import Counter
 from data import languages, language_names
 from utils import find_lowest_value
 
-def guess_languages(s):
-    frequencies = __calculate_frequencies(s)
+def guess_languages(string):
+    frequencies = __calculate_frequencies(string)
     quotients = {}
 
     for lan in languages:
@@ -17,17 +17,17 @@ def guess_languages(s):
 
     return lan
 
-def __calculate_frequencies(s):
-    s_len = len(s)
+def __calculate_frequencies(string):
+    string_len = len(string)
     frequencies = {}
 
-    s_lower = s.lower()
-    s_regex = re.sub('[^a-zA-Zàáâäãåāçćčèéêëēìíîïīñòóôõöøōùúûüūýÿœšžß]','', s_lower)
-    letter_count = dict(Counter(s_regex))
+    string_lower = string.lower()
+    string_regex = re.sub('[^a-zA-Zàáâäãåāçćčèéêëēìíîïīñòóôõöøōùúûüūýÿœšžß]','', string_lower)
+    letter_count = dict(Counter(string_regex))
 
-    for occ in letter_count:
-        freq = round((letter_count[occ] / s_len) * 100, 2)
-        frequencies[occ] = freq
+    for occurence in letter_count:
+        frequence = round((letter_count[occurence] / string_len) * 100, 2)
+        frequencies[occurence] = frequence
 
     return frequencies
 
